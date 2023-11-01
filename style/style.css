@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  background: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+body {
+  background: #fbf8cc;
+}
+h2 {
+  color: #f7f197;
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 116px;
+}
+p {
+  color: #03045e;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 44px;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-nav .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 34px;
+  padding-bottom: 127px;
+
+}
+.header-nav .container ul {
+  display: flex;
+  list-style: none;
+}
+.ulword {
+  gap: 61px;
+}
+.ulimg {
+  gap: 29px;
+}
+.logo {
+  color: #03045e;
+  font-size: 24px;
+  font-weight: 600;
+}
+.ulword a {
+  color: #03045e;
+  font-size: 18px;
+}
+.header {
+  padding-bottom: 271px;
+}
+.header-content .container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-content h3 {
+  color: #03045e;
+  font-size: 28px;
+  font-weight: 500;
+}
+.header-content h1 {
+  color: #03045e;
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 116px;
+}
+.header-content p {
+  width: 158px;
+  height: 61px;
+  color: #474306;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: 1px solid #474306;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background: #f5ee84;
+}
+.header-info {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding-top: 90px;
+}
+
+.header-info p:hover {
+  color: #f5ee84;
+  background: #474306;
+  border: 1px solid #f5ee84;
+  transition: 400ms;
+}
+
+.awc {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.date ul {
+  padding-top: 145px;
+  padding-left: 230px;
+}
+.date li {
+  color: #03045e;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.date ul {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding-bottom: 183px;
+}
+figcaption {
+  color: #03045e;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 44px;
+}
+h4 {
+  color: #03045e;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.work {
+  padding-bottom: 124px;
+}
+.somecs p {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.somecs {
+  padding-top: 124px;
+  display: flex;
+  gap: 120px;
+}
+.contact-info {
+  padding-top: 49px;
+  display: flex;
+  gap: 59px;
+  padding-bottom: 90px;
+}
+.contact-info li {
+  list-style: none;
+}
+.contact-info a {
+  color:#03045e;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 44px;
+}
+.contact-words{
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
